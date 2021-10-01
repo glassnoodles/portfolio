@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Avenir", sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+
+/*top bar*/
+div#top-bar{
+    margin: 1em 0 5em;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 30% 3fr 5fr;
+}
+#name {
+    font-size: 0.8em;
+    /*letter-spacing: 0.5px;*/
+    /*text-transform: uppercase;*/
+    grid-column: 2;
+    font-weight: 700;
+}
+#name a {
+    color: black;
+    text-decoration: none;
+}
+nav {
+    grid-column: 3;
+    list-style: none;
+    font-size: 0.8em;
+}
+nav li{
+    padding-top: 0.2em;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+/**/
+.container-portfoliolist{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5em 1em;
+    
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+.image-background{
+    flex: 1 1 14em;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.8em; /*y gap between list items*/
+}
+img {
+    max-height: 65%;
+}
+.desc{
+    flex: 1 1 20em;
+    padding-left: 0;
+}
+a:hover .entry-title{
+    text-decoration: underline;
+    transition: text-decoration 250ms ease-in;
+}
+.entry-title{
+    font-style: italic;
+    font-weight: bold;
+}
+.skills{
+    font-size: 0.75em;
+    font-weight: 600;
+}
+.blurb{
+    font-size: 0.85em;
+    margin-top: 0.8em;
+}
+
+/*specific colors*/
+.image-background.entryBook{
+    background-color: #E1CAF4;
+}
+.image-background.entryTurbine{
+    background-color: #D4EDFB;
+}
+
+/*self intro*/
+#self-intro{
+    max-width: 40em;
+    margin: 0 auto 3em;
+    padding: 0 2em;
+}
+/**/
+/*
+#portfolio-pieces {
+    margin: 0 5em;
+
+}
+#portfolio-pieces ul {
+list-style: none;
+}
+
+#portfolio-pieces h2.piece-title {
+    font-size: 1em;
+    margin-bottom: 0.7em;
+}
+#portfolio-pieces h3.main-skills {
+    font-size: 0.5em;
+    font-weight: 400;
+    
+    margin-bottom: 2.5em;
+    
+}
+#portfolio-pieces h3.in-brief {
+    font-size: 0.86em;
+    font-weight: 100;
+    margin-bottom: 0.4em;
+}*/

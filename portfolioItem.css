@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Avenir", sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/*top bar*/
+div#top-bar{
+    margin: 1em 0 5em;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 30% 3fr 5fr;
+}
+#name {
+    font-size: 0.8em;
+    /*letter-spacing: 0.5px;*/
+    /*text-transform: uppercase;*/
+    grid-column: 2;
+    font-weight: 700;
+}
+#name a {
+    color: black;
+    text-decoration: none;
+}
+nav {
+    grid-column: 3;
+    list-style: none;
+    font-size: 0.8em;
+}
+nav li{
+    padding-top: 0.2em;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+/*title*/
+div#header-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+header{
+    flex: 0 1 60%;
+}
+
+h1#title{
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h2#title-descript {
+    font-weight: normal;
+}
+
+img#header-img {
+    max-width: 50%;
+    max-height: 20em;
+    margin-left: 1em;
+}
+
+/*details*/
+span.category{
+    font-weight: 600;
+}
+
+div.details{
+    padding-top: 5em;
+}
+
+/*Overall container for the centered content, the margins*/
+div.container {
+    padding: 0 2em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50em
+}
+
+/*h3 and h4*/
+h3{
+    margin-top: 5em;
+    margin-bottom: 0.2em;
+    font-weight: 600;
+    font-size: 1.6em;
+    /*font-style: italic;*/
+}
+
+h4{
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 2em;
+}
+
+/*flex container for the images*/
+.figs{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+/*images*/
+.figs img{
+    /*max-width: 16em;*/
+    max-width: 50%;
+    margin-left: 0.5em;
+    border: 0.1px solid darkgray;
+}
+
+.final-figs img{
+    max-width: 100%;
+    margin-top: 0.5em;
+}
+
+/*for displaying book pages*/
+.container-book-design{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    gap: 1em;
+    
+}
+.container-book-design img{
+    max-width: 15em;
+}
+
+/*list*/
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 0.2em;
+}
+
+/**/
+.split-content-container{
+    display: flex;
+    align-content: flex-start;
+}
+.left-bar{
+    flex: 0 1 16em;
+    margin-right: 2em;
+}
+.left-bar img {
+    max-width: 16em;
+}
+.right-content > *:nth-child(1){
+    margin-top: 0;
+}
+.right-content{
+    flex-shrink: 2;
+}
+
+/*section with dark background*/
+.emphasis-dark {
+    background-color: #7E6C70;
+    color: white;
+    padding: 6em 10em;
+    margin-top: 5em;
+    text-align: center;
+}
+.emphasis-dark h3{
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
+.emphasis-dark p{
+    font-weight: 600;
+}
+/*section with gray background*/
+.gray-background{
+    background-color: #F3F3F3;
+    padding: 3em 0 1em 0;
+    margin-top: 6em;
+}
+.gray-background .split-content-container{
+    align-items: center;
+}
+.gray-background p{
+    margin-top: 1.5em;
+}
+/*.recs{
+    font-size: 2em;
+    font-style: italic;
+}*/
+
+.circle {
+    background-color: aqua;
+    width: 1.5  em;
+}
+
+/*footer*/
+footer{
+    margin-top: 5em;
+    padding-top: 2em;
+    height: 4em;
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 0.5em;
+    color: gray;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>University Bookstore Partial Redesign</title>
+    <meta name="description" content="Detail page for University Bookstore partial redesign.">
+    <link rel="stylesheet" href="../portfolioItem.css">
+        <style>
+            /*specific image sizing*/
+            img.fig1{ 
+            width: 30em;
+            margin-right: 0;
+            }
+
+            img.fig2{
+            width: 25%;
+            }
+        </style>
+</head>
+<body>
+        <div id="top-bar">
+        <span id="name"> <a href="../index.html">Naomi</a></span>
+        <nav>
+            <ul id="top-bar">
+                <li>Contact me</li>
+                <li>Resume</li>
+            </ul>
+        </nav>
+        </div>
+    
+    <div class="container">
+    <div id="header-container">
+    <header>
+    <h1 id="title">University Book Store</h1>
+    <h2 id="title-descript">Redesign of Course Materials View and Checkout Process</h2>
+    </header>
+    
+    <img id="header-img" src="Macbook.svg">
+    </div>
+    
+    <div class="details">
+        <span class="category">Duration-</span> April 2021, 2 weeks
+        <br><span class="category">Type-</span> Solo project
+        <br><span class="category">Context-</span> Course assignment (HCDE301)
+        <br><span class="category">Skills-</span> Ui/Ux design and heuristics analysis
+    </div>
+        
+    <h3>Assignment Prompt</h3>
+    <p>Use heuristics to do a usability analysis on your website of choice, then redesign it accordingly.  
+
+    I chose the University of Washington’s University Book Store’s website, and focused on the experience of viewing course materials and the check out process.</p>
+    <div class="figs figs-part1">
+        <img class="fig fig1" src="uireport-fig5.png"><img class="fig fig2" src="uireport-fig7.png"></div>
+    </div>
+    
+    <div class="emphasis-dark">
+    <h3>Project Goal</h3>
+        <p>Every year, more than 40,000 students attend classes at Seattle’s University of Washington. Many order class materials from the University Bookstore. Is the UI for online purchase effective in allowing users to purchase needed course materials?</p></div>
+    
+    <div class="container">
+    <h3>Heuristics used for Analysis</h3>
+    <div class="split-content-container">
+    <div class="left-bar">I used heuristics from Nielsen’s list of 10 usability heuristics and a heuristics presented on the Laws of Ux website (lawsofux.com). Here are the three heursitics I used:</div>
+    <div class="right-content"><h4>Recognition/Recall</h4>
+    <p>Features should have clear (visual) cues so users don’t need to memorize how to use it. This is especially important because the user base is mostly students who only purchase course materials 3-4 times a year, and because the user pool constantly changes as students graduate.</p>
+
+    <h4>Goal Gradient effect</h4>
+    The existence of a progress marker and goal pushes the user to complete tasks. A study by R. Kivetz, O. Urminsky, and Y. Zheng found that participants
+    who started closer to the goal of 25,000 frequent flyer points had a 47% increase in completion rates over participants who started x6 further away from the 25,000 points.
+
+    <h4>Hick’s law</h4>
+    The Hick’s Law heuristic states that a greater number of choices is results in a greater amount of time needed to make a decision. Furthermore, there should never be redundant choices as it would increase reaction time without any meaningful reason.
+    </div></div>
+    
+    <h3>Findings</h3>
+    <div class="split-content-container">
+        <div class="left-bar"><p>Analyzing the website according to these heuristics, this is what I found:</p></div>
+        
+    <div class="right-content"><h4>Recognition/Recall</h4>
+    <p>Current design requires memorization of specific course code, section, and instructor name.</p>
+    <div class="figs figs-part2">
+        <img class="fig fig3" src="uireport-fig3.png"><img class="fig fig4" src="uireport-fig4.png"></div>
+    
+    <h4>Goal Gradient effect</h4>
+    <p>Visual cues for progression is too subtle. The list of selected courses is hidden at first, which obfuscates the ‘end goal’ of this page.</p>
+    <div class="figs figs-part3">
+        <img class="fig fig5" src="uireport-fig5.png"><img class="fig fig6" src="uireport-fig6.png"></div>
+
+    <h4>Hick’s law</h4>
+    <p>The layout of this page forces the user to make extraneous decisions. The page has two “continue” buttons, one following a vertical flow and the other a horizontal flow. Furthermore, the redundancy of the buttons confuses the user on whether both buttons do the same thing.</p>
+    <div class="figs figs-part4">
+        <img class="fig fig7" src="uireport-fig7.png"></div>
+    </div></div>
+    
+    <h3 class="recs">Recommendations</h3>
+    <div class="split-content-container">
+    <div class="left-bar">Here are several recommendations on how to better apply the aforementioned heuristics to the design.</div>
+        
+    <div class="right-content"><h4>Recognition/Recall</h4>
+    <ul>
+        <li>-Adding an “import courses” button where students can sign in with their net ID, and the system will retrieve their data and automatically fill in the form.</li>
+        <li>-Allowing users to search for classes and pick from choices with a more detailed description such as course title and schedule.</li></ul>
+
+    <h4>Goal Gradient effect</h4>
+    <ul><li>-Increasing visibility of progress in the “Select Your Courses” form.</li>
+    <li>-Reveal the ‘end-goal’ of the “Select Your Courses” page; always show the “Selected
+        Courses” list.</li></ul>
+        <div class="final-figs">
+        <img class="fig fig8" src="uireport-fig8.png"></div>
+        
+    <h4>Hick’s law</h4>
+    <ul><li>-Remove the redundant button in the payment processing page.</li></ul>
+        <div class="final-figs">
+        <img class="fig fig9" src="uireport-fig9.png"></div>
+    </div></div>
+    
+</div>
+
+<footer>Designed and coded by Naomi (Aug 2021). <Span style="font-style: italic;">My first website project!</Span></footer>
+</body>
+</html>
