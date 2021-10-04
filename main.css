@@ -89,6 +89,9 @@ a:hover .entry-title{
 .image-background.entryTurbine{
     background-color: #D4EDFB;
 }
+.image-background.entrySportsTech{
+    background-color: #ffb047;
+}
 
 /*self intro*/
 #self-intro{
