@@ -34,6 +34,9 @@ nav li{
     display: inline-block;
     margin-right: 2em;
 }
+a{
+    color: #45b3e7;
+}
 
 /*title*/
 div#header-container{
@@ -115,11 +118,24 @@ h4{
     margin-top: 0.5em;
 }
 
+.split-figs{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: #45b3e7;
+}
+.split-figs img{
+    width: 30%;
+}
+
+.size2 img{
+    width: 50%;
+}
+
 /*for displaying book pages*/
 .container-book-design{
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
     gap: 1em;
     
 }
@@ -187,10 +203,37 @@ li{
     font-size: 2em;
     font-style: italic;
 }*/
+/*split box section*/
+.split-box-container{
+    display: flex; /*delete this to get rid of 2 columns*/
+}
+
+.split-box {
+    width: 100%;
+    padding-right: 5em;
+}
+p{
+    margin-bottom: 1em;
+}
+.split-box-container > div:last-child {
+    padding-right: 0;
+}
 
 .circle {
     background-color: aqua;
     width: 1.5  em;
+}
+/*slides screencap images*/
+.slides-cap img{
+    width: 100%;
+}
+.multiple {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.multiple img{
+    max-width: 22em; 
 }
 
 /*footer*/
