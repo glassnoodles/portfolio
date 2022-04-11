@@ -83,15 +83,22 @@ a:hover .entry-title{
 }
 
 /*specific colors*/
+.image-background.entryOwl{
+    background-color: #f9f48b;
+}
+.image-background.entryFwwa{
+    background-color: #f2f1ea;
+}
 .image-background.entryBook{
     background-color: #E1CAF4;
 }
-.image-background.entryTurbine{
+.image-background.entryTurbine, .image-background.entryDesPrompt{
     background-color: #D4EDFB;
 }
 .image-background.entrySportsTech{
     background-color: #ffb047;
 }
+
 
 /*self intro*/
 #self-intro{
